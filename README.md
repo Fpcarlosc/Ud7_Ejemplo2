@@ -98,7 +98,7 @@ public class Cliente {
 Creamos un _POJO_ con los datos que queremos obtener del trabajador.
 ```
 public class Trabajador {
-    @SerializedName("_id")
+    @SerializedName("id")
     @Expose
     private int id;
     @SerializedName("nombre")
